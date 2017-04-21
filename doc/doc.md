@@ -1,16 +1,7 @@
 ﻿**API:**
 
    (注意: 资源存放的根目录为 /containers, 即上传的文件最终会放在containers目录或指定的其子目录下.)  
-``` javascript
-   module.exports = {
-     createDir:function(){...},
-     emptyDir:function(){...},
-     downloadFile:function(){...},
-     uploadFile:function(){...},
-     deleteFile:function(){...},
-     deleteFiles:function(){...}
-   }
-```  
+ 
 **1. 添加目录 createDir**
  > get( /containers/:dirName )
 ``` javascript
