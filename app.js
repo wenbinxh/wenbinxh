@@ -51,7 +51,7 @@ app.post('/containers/upload', fileModel.uploadFile);
 //上传图片
 app.get('/upload/file', function (req, res, next) {
     // show a file upload form
-    res.writeHead(200, {'content-type': 'text/html'});
+    res.writeHead(200, {'content-type': 'text/html;charset=utf-8'});
     res.end(
         '<form action="/containers/upload" enctype="multipart/form-data" method="post">' +
         '上传文件dir：<input type="text" name="dirName"><br>' +
