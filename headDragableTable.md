@@ -4,7 +4,9 @@
 
 引入此组件后，只需将 `<el-table>` 标签改为 `<head-dragable-table>`即可开启表头拖拽功能。
 
-效果参考statics目录中动图
+效果参考动图：
+
+![](https://raw.githubusercontent.com/xuebinWu/wenbinWu/master/statics/imgs/dragableHeader.gif)
 
 ```js
 <template>
